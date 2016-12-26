@@ -5,7 +5,7 @@ Rails.application.routes.draw do
           post :join
           post :quit
         end
-        resources :posts
+        resources :posts  
   end
 
    root 'groups#index'
